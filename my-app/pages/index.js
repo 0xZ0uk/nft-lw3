@@ -4,7 +4,6 @@ import React, { useEffect, useRef, useState } from "react";
 import Web3Modal from "web3modal";
 import { abi, NFT_COLLECTION_CONTRACT } from "../consts";
 import styles from '../styles/Home.module.css'
-import { walletconnect } from 'web3modal/dist/providers/connectors';
 
 export default function Home() {
   const [walletConnected, setWalletConnected] = useState(false);
